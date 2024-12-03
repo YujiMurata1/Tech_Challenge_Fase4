@@ -15,13 +15,6 @@ import plotly.graph_objects as go
 import numpy as np
 import plotly.graph_objects as go
 
-# Import TimeseriesGenerator from tensorflow.keras instead of keras
-from tensorflow.keras.preprocessing.sequence import TimeseriesGenerator 
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, LSTM
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.metrics import MeanSquaredError
-from sklearn.preprocessing import MinMaxScaler
 
 import ssl
 
